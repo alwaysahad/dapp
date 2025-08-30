@@ -1,4 +1,4 @@
-# Token Launchpad
+# Dapp
 
 This is a starter project for building a token launchpad on the Solana blockchain using React, Vite, and the Solana Wallet Adapter. It provides basic functionalities for interacting with Solana, including wallet connection, airdrop requests, balance checking, token sending, and message signing.
 
