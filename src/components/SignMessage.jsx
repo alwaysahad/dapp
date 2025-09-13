@@ -18,9 +18,9 @@ export function SignMessage() {
     };
 
     return (
-        <div style={{display: "flex", justifyContent: "space-between", margin: 40}}>
-            <input style={{padding: 20}} id="message" type="text" placeholder="Message" />
-            <button onClick={onClick}>
+        <div style={{display: "flex", justifyContent: "space-between", margin: "20px 0"}}>
+            <input className="inputText" id="message" type="text" placeholder="Message" />
+            <button className="btn" onClick={onClick}>
                 Sign Message
             </button>
         </div>

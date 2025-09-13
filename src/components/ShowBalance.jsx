@@ -23,7 +23,7 @@ export function ShowBalance() {
   }, [connection, publicKey]); // ✅ refetch when wallet/connection changes
 
   return (
-    <div>
+    <div className="balance-display">
       Balance:{" "}
       {publicKey ? (
         balance !== null ? `${balance} SOL` : "Loading..."

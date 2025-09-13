@@ -21,10 +21,10 @@ export function SendTokens() {
     }
 
     return <>
-        <span style={{display: "flex", justifyContent: "space-between", margin: 40}}>
-            <input style={{padding: 20}} id="to" type="text" placeholder="To" />
-            <input style={{padding: 20}} id="amount" type="text" placeholder="Amount"></input>
-            <button style={{padding: 20}} onClick={sendTokens}>Send</button>
+        <span style={{display: "flex", justifyContent: "space-between", margin: "20px 0"}}>
+            <input className="inputText" id="to" type="text" placeholder="To" />
+            <input className="inputText" id="amount" type="text" placeholder="Amount"></input>
+            <button className="btn" onClick={sendTokens}>Send</button>
         </span>
     </>
         

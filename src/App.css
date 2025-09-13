@@ -3,13 +3,61 @@
   text-align: center;
 }
 
+.faucet-container {
+  background: linear-gradient(135deg, #9945FF 0%, #14F195 100%);
+  border-radius: 20px;
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 600px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.faucet-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.balance-display {
+  font-size: 1.5em;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
 .inputText {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 10px;
-  width: 300px;
+  padding: 15px;
+  width: 100%;
+  margin: 10px 0;
+  border: 2px solid #9945FF;
+  border-radius: 10px;
+  font-size: 1.1em;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.inputText::placeholder {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .btn {
-  padding: 20px;
+  padding: 15px 30px;
+  background-color: #14F195;
+  color: #9945FF;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 10px;
+}
+
+.btn:hover {
+  background-color: #9945FF;
+  color: #14F195;
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(153, 69, 255, 0.4);
 }

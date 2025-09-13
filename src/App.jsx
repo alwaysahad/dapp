@@ -28,20 +28,24 @@ function App() {
             <WalletMultiButton></WalletMultiButton>
           </div>
 
-          <div style={{margin: 40}}>
-            <ShowBalance />
-          </div>
+          <div className="faucet-container">
+            <h1>Solana Devnet Faucet</h1>
+            
+            <div style={{margin: 40}}>
+              <ShowBalance />
+            </div>
 
-          <div>
-            <RequestAirdrop />
-          </div>
+            <div>
+              <RequestAirdrop />
+            </div>
 
-          <div>
-            <SendTokens />
-          </div>
+            <div>
+              <SendTokens />
+            </div>
 
-          <div>
-            <SignMessage />
+            <div>
+              <SignMessage />
+            </div>
           </div>
 
         </WalletModalProvider>

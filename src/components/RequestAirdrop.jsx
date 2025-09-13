@@ -24,14 +24,14 @@ export function RequestAirdrop() {
   };
 
   return (
-    <div style={{ display: "flex", justifyContent: "space-between" }}>
+    <div style={{ display: "flex", justifyContent: "space-between", margin: "20px 0" }}>
       <input
         id="amt"
-        style={{ padding: 18, marginLeft: 35 }}
+        className="inputText"
         type="text"
         placeholder="Amount..."
       />
-      <button style={{ padding: 18, marginRight: 25 }} onClick={handleAirdrop}>
+      <button className="btn" onClick={handleAirdrop}>
         Request Airdrop
       </button>
     </div>
